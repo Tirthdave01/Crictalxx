@@ -1,5 +1,10 @@
 # 🏏 Crictalxx - The Cricket Quiz & Honors Certification Arena
 
+[![Live on Render](https://img.shields.io/badge/Live%20App-crictalxx.onrender.com-brightgreen?style=for-the-badge&logo=render)](https://crictalxx.onrender.com)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Tirthdave01%2FCrictalxx-blue?style=for-the-badge&logo=github)](https://github.com/Tirthdave01/Crictalxx)
+
+> 🌐 **Live Deployment:** [https://crictalxx.onrender.com](https://crictalxx.onrender.com)
+
 **Crictalxx** is a full-stack cricket trivia and digital certification arena built with **React + Vite + Tailwind CSS** on the frontend, and a **Node.js / Express backend with SQLite** persistence.
 
 ---
