@@ -1,0 +1,16 @@
+{
+  "name": "crictalxx",
+  "version": "1.0.0",
+  "description": "Crictalxx - The Ultimate Cricket Quiz & Honors Certification Platform",
+  "scripts": {
+    "build": "npm --prefix server install && npm --prefix client install && npm --prefix client run build",
+    "start": "node server/index.js",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "author": "Tirth"
+}
