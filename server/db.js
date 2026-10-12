@@ -1,4 +1,5 @@
-const { DatabaseSync } = require('node:sqlite');
+const sqlite = require('node:sqlite');
+const DatabaseSync = sqlite.DatabaseSync || sqlite.Database;
 const path = require('node:path');
 
 const dbPath = path.join(__dirname, 'crictalxx.db');

@@ -4,8 +4,8 @@
   "description": "Backend API for Crictalxx cricket quiz app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "seed": "node seed.js"
+    "start": "node --experimental-sqlite index.js",
+    "seed": "node --experimental-sqlite seed.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
